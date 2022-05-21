@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+
+}
+
+.top_header {
+    background: #222222;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    .top_header_left {
+        display: flex;
+        
+    }
+
+    .search {
+        padding-top: 28px;
+        margin-left: 41px;
+    }
+
+    .logo {
+        padding-top: 18px;
+    }
+
+    .top_header_right {
+        display: flex;
+        padding-top: 26px;
+       
+
+        .prs {
+            margin-left: 33px;
+            margin-right: 33px;
+        }
+    }
+}
+
+
+
+
+
+.main {
+    background: #F1E4E6;
+    height: 764px;
+    
+    display: flex;
+    justify-content: space-around;
+
+    .banner {
+        background-image: url(images/back.png);
+        background-repeat: no-repeat;
+        height: 100%;
+        background-position: -175px;
+    }
+
+    .main_info {
+        align-self: center;
+        display: flex;
+        width: 50%;
+        float: right;
+        margin-top: 300px;
+
+        .info_text {
+            margin-left: 15px;
+            align-self: center;
+        }
+    }
+
+    &_info_pic {
+        align-self: center;
+    }
+}
+
+
+.middle {
+    margin: 0 auto;
+    margin-top: 65px;
+    display: flex;
+    flex-direction: column;
+    max-width: 180px;
+
+    .middle_top {
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 15px;
+    }
+
+    .middle_bottom {
+        display: flex;
+        justify-content: center;
+    }
+
+    .img_middle {
+        margin-right: 30px;
+    }
+
+    .img_middle_left {
+        margin-right: 30px;
+    }
+}
+
+.products_heading {
+    margin-top: 91px;
+    text-align: center;
+
+    .featured {
+
+        text-align: center;
+        margin-bottom: 41px;
+
+        h1 {
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 36px;
+            color: #222222;
+        }
+
+        .text {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: #9F9F9F;
+        }
+    }
+
+
+}
+
+.card_box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .product_card {
+        background: #F8F8F8;
+        ;
+        display: flex;
+        flex-direction: column;
+        height: 581px;
+        width: 360px;
+        margin-bottom: 30px;
+    }
+
+    .text_cards {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        color: #5D5D5D;
+        padding-left: 18px;
+        padding-right: 25px;
+    }
+
+    .pad {
+        margin-right: 30px;
+    }
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    padding-bottom: 12px;
+    padding-top: 25px;
+    padding-left: 18px;
+}
+
+.button {
+    border: 1px solid #FF6A6A;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #F26376;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 35px;
+    padding-right: 35px;
+
+}
+
+.button_pink {
+    margin: 0 auto;
+    text-align: center;
+    height: 45px;
+    width: 211px;
+    margin-top: 48px;
+}
+
+.bonus {
+    background: #222224;
+    height: 341px;
+    margin-top: 95px;
+
+    .sale {
+        display: flex;
+       
+    }
+
+    .delivery {
+        text-align: center;
+        margin-top: 104px;
+        margin-right: 30px;
+       
+    }
+
+    .sales {
+        text-align: center;
+        margin-top: 104px;
+        margin-right: 30px;
+
+    }
+
+    .quality {
+        text-align: center;
+        margin-top: 104px;
+       
+    }
+
+    .heading_bonus {
+        margin-top: 19px;
+        font-weight: 400;
+        font-size: 19.96px;
+        line-height: 24px;
+        color: #FBFBFB;
+    }
+
+    .text_bonus {
+        margin-top: 16px;
+        font-weight: 300;
+        font-size: 13.972px;
+        line-height: 17px;
+        text-align: center;
+
+        color: #FBFBFB;
+        padding-top: 16px;
+        padding-right: 20px;
+        padding-left: 25px;
+
+
+    }
+}
+
+.review_subscribe {
+    height: 448px;
+    background-image: url(images/subscribe.svg);
+    
+    .footer_banner {
+        display: flex;
+        
+        .review_card {
+            height: 448px;
+            text-align: center;
+            margin-top: 86px;
+            margin-bottom: 126px;
+            width: 360px;
+        }
+        .subscribe {
+            width: 557px;
+            text-align: center;
+        }
+    }
+}
+.footer_bottom {
+    background: #222224;
+    height: 79px;
+}
