@@ -4,7 +4,7 @@
 }
 
 .container {
-  width: 1140px;
+  max-width: 1140px;
   margin: 0 auto;
   height: 100%;
 }
@@ -27,6 +27,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  width: 100%;
 }
 
 .top_header li {
@@ -75,7 +76,7 @@
   background-repeat: no-repeat;
   height: 100%;
   background-position: -175px;
-  position: relative;
+  width: 100%;
 }
 
 .main .main_info {
@@ -172,6 +173,7 @@
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  width: 100%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -336,9 +338,8 @@ h2 {
 }
 
 .review_subscribe .footer_banner .review_card {
-  height: 448px;
   text-align: center;
-  margin-top: 130px;
+  padding-top: 130px;
   margin-bottom: 126px;
   width: 360px;
 }
@@ -514,6 +515,12 @@ h2 {
 .top_main_product {
   background: #F8F3F4;
   height: 148px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .top_banner_bottom {
@@ -633,5 +640,102 @@ h2 {
 
 .cards_products {
   margin-top: 664px;
+}
+
+.top_banner_top_reg {
+  display: block;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  padding-top: 59px;
+  padding-bottom: 60px;
+}
+
+.top_banner_top_reg .reg_text {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #F16D7F;
+}
+
+.regist_middle_left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.regist_middle_left .text_yourname {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #222222;
+  margin-top: 64px;
+  margin-bottom: 20px;
+}
+
+.regist_middle_left .sex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+input {
+  max-width: 360px;
+}
+
+.name {
+  margin-bottom: 20px;
+}
+
+.top_banner_top {
+  padding-top: 59px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: -webkit-fill-available;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.top_banner_top .reg_text {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #F16D7F;
+  margin-top: 59px;
+}
+
+.a_text_product {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #636363;
+  list-style-type: none;
+}
+
+.a_pink_text_product {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  list-style-type: none;
+  color: #F16D7F;
 }
 /*# sourceMappingURL=style.css.map */
