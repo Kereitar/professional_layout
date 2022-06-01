@@ -526,10 +526,38 @@ h2 {
           justify-content: space-between;
 }
 
+.pink_fon .top_banner_top {
+  padding-top: 59px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: -webkit-fill-available;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 60px;
+}
+
+.pink_fon .top_banner_top .reg_text {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #F16D7F;
+  margin-top: 59px;
+}
+
 .top_banner_bottom {
   background: #F7F7F7;
   height: 777px;
   z-index: 0;
+  position: relative;
+}
+
+.top_banner_bottom .arrow_left {
+  position: absolute;
+  bottom: 50%;
 }
 
 .top_banner_bottom .banner_top {
@@ -543,7 +571,13 @@ h2 {
   min-height: calc(100vh - 80px);
 }
 
-.middle_z {
+.middle {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.middle .middle_z {
   background: #FFFFFF;
   border: 1px solid #EAEAEA;
   height: 601px;
@@ -563,7 +597,7 @@ h2 {
           align-items: center;
 }
 
-.middle_z .pink_heading_middle {
+.middle .middle_z .pink_heading_middle {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 300;
@@ -574,7 +608,7 @@ h2 {
   margin-top: 64px;
 }
 
-.middle_z .img_pink_middlez {
+.middle .middle_z .img_pink_middlez {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -584,7 +618,7 @@ h2 {
   margin-top: 12px;
 }
 
-.middle_z .heading_middle {
+.middle .middle_z .heading_middle {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 300;
@@ -595,7 +629,7 @@ h2 {
   margin-top: 12px;
 }
 
-.middle_z .text_middle_z {
+.middle .text_middle_z {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 300;
@@ -608,7 +642,7 @@ h2 {
   width: 555px;
 }
 
-.middle_z .price_middlez {
+.middle .price_middlez {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 300;
@@ -618,13 +652,13 @@ h2 {
   color: #EF5B70;
 }
 
-.middle_z .line_middlez {
+.middle .line_middlez {
   width: 641px;
   border: 1px solid #EAEAEA;
   margin-top: 65px;
 }
 
-.middle_z .list_middlez {
+.middle .list_middlez {
   width: 450px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -767,27 +801,6 @@ h2 {
 
 .name {
   margin-bottom: 20px;
-}
-
-.top_banner_top {
-  padding-top: 59px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: -webkit-fill-available;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.top_banner_top .reg_text {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 29px;
-  color: #F16D7F;
-  margin-top: 59px;
 }
 
 .a_text_product {
