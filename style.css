@@ -512,8 +512,11 @@ h2 {
           filter: greyscale(86%);
 }
 
-.top_main_product {
+.pink_fon {
   background: #F8F3F4;
+}
+
+.pink_fon .top_main_product {
   height: 148px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -660,7 +663,14 @@ h2 {
   color: #F16D7F;
 }
 
-.regist_middle_left {
+.regist_middle {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.regist_middle .regist_middle_left {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -668,30 +678,91 @@ h2 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  width: 45%;
 }
 
-.regist_middle_left .text_yourname {
+.regist_middle .regist_middle_left .text_yourname {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
   line-height: 19px;
   color: #222222;
-  margin-top: 64px;
+  margin-top: 33px;
   margin-bottom: 20px;
 }
 
-.regist_middle_left .sex {
+.regist_middle .regist_middle_left .sex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  list-style-type: none;
 }
 
-input {
+.regist_middle .regist_middle_left .text_form_reg {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  color: #B1B1B1;
+}
+
+.regist_middle .regist_middle_right {
+  padding-left: 128px;
+  padding-top: 64px;
+}
+
+.regist_middle .regist_middle_right .heading_middle_right {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  padding-bottom: 22px;
+}
+
+.regist_middle .regist_middle_right .text_middle_right {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  padding-bottom: 21px;
+  color: #000000;
+}
+
+.regist_middle .regist_middle_right .middle_list {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  list-style-type: none;
+  color: #000000;
+}
+
+.regist_middle .regist_middle_right .middle_list_string {
+  padding-bottom: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.regist_middle .regist_middle_right .text_middle_list {
+  padding-left: 20px;
+}
+
+.input_text {
   max-width: 360px;
+  border: 1px solid #A4A4A4;
+  height: 44px;
+  margin-bottom: 21px;
+  padding-left: 20px;
 }
 
 .name {
@@ -737,5 +808,30 @@ input {
   line-height: 17px;
   list-style-type: none;
   color: #F16D7F;
+}
+
+.button_pink_reg {
+  text-align: center;
+  height: 45px;
+  max-width: 167px;
+  margin-top: 48px;
+  margin-bottom: 96px;
+}
+
+.button_pink_reg .button_reg {
+  border: 1px solid #FF6A6A;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  background-color: #EF5B70;
+  color: white;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 29px;
+  padding-right: 30px;
+}
+
+.button_pink_reg .text_reg_button {
+  padding-left: 20px;
 }
 /*# sourceMappingURL=style.css.map */
